@@ -1,0 +1,131 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.int{
+top:0;
+ background-color: lightblue;
+ min-height: 60vh;
+ padding-top: 45vh;
+ width:105%;
+}
+ #intoP {
+    color: green;
+  }
+
+  nav ul {
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    background-color: lightblue;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 55px;
+    margin-bottom: 15px;
+    margin-right: 120px;
+    margin-top: 20px;
+  }
+  
+  nav ul li a {
+    color: #055f5f;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: green;
+  }
+
+  @media only screen and (max-width: 500px) {
+    nav ul {
+      text-align: center;
+    }
+  
+    nav ul li {
+      margin: 20px;
+    }
+  
+    .project {
+      margin: 40px 0;
+    }
+  }
+.Head{
+  margin:60px;
+  color:#055f5f;
+}
+  .projects{
+    text-decoration: none;
+    color: #055f5f;
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid lightblue;
+    height: 220px;
+    width: 280px;
+    margin: 40px 100px;
+  }
+
+  .pic {
+    width: 90%;
+    height: 170px;
+    border-bottom: 2px solid grey;
+  }
+  .project-title {
+    font-weight: bold;
+  }
+.ShowAll{
+  border:2px solid green;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  background: #e0f5ef;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  display: block;
+  text-decoration: none;
+  margin:30px;
+  margin-left:600px;
+}
+
+#contact{
+  background: rgb(187, 252, 187);
+  padding-bottom: 160px;
+  width:105% ;
+  height: 40%;
+}
+
+#ContactHead{
+    padding: 160px 0 110px;
+}
+
+.detail{
+  background:lightblue;
+  color: #055f5f;
+  border:3px solid rgb(209, 205, 205);
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 100px;
+  margin: 0 35px 45px 35px;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer{
+  background: rgb(61, 75, 88);
+  color: white;
+  line-height: 40px;
+  padding: 10px;
+  width:105% ;
+  height: 40%;
+}
+footer a{
+  color:white;
+}
+ 
